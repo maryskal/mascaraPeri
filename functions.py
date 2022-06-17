@@ -66,8 +66,8 @@ def paciente_diccionary(patient, ctPath, maskPaths):
     alto es arteria, es decir, si tenemos valores de 0,30 y 40, 30 sería vena
     40 sería arteria.
     '''
-    art_vein = {0: 'vein',
-                1: 'artery'}
+    art_vein = {1: 'vein',
+                0: 'artery'}
 
     pacienteDict = {}
     pacienteDict['patient'] = patient
